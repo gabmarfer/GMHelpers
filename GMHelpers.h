@@ -12,3 +12,9 @@ UIImage *loadImageWithName(NSString *name);
 
 NSString *pathInDocumentDirectory(NSString *fileName);
 
+NSString *pathInLibraryCacheDirectory(NSString *fileName);
+
+NSString *pathInTmpDirectory(NSString *fileName);
+
+BOOL addSkipBackupAttributeToItemAtURL(NSURL *URL);
+
