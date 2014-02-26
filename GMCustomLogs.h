@@ -12,8 +12,8 @@
 
 #ifdef DEBUG
     // Turn ON custom logs
-    #define STLog(fmt, ...) NSLog((@"%s " fmt), __PRETTY_FUNCTION__, ##__VA_ARGS__);
+    #define GMLog(fmt, ...) NSLog((@"%s " fmt), __PRETTY_FUNCTION__, ##__VA_ARGS__);
 #else
     // Turn OFF custom logs
-    #define STLog(...) do {} while(0)
+    #define GMLog(...) do {} while(0)
 #endif
